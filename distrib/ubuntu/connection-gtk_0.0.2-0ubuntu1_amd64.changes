@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 01 Apr 2015 12:00:00 +0000
+Source: connection-gtk
+Binary: connection-gtk
+Architecture: source all
+Version: 0.0.2-0ubuntu1
+Distribution: unstable
+Urgency: low
+Maintainer: Carles Mateo <carles.mateo@gmail.com>
+Changed-By: Carles Mateo <carles.mateo@gmail.com>
+Description: 
+ connection-gtk - This is the gtk support for Connection
+Changes: 
+ connection-gtk (0.0.2-0ubuntu1) unstable; urgency=low
+ .
+   * New release version
+Checksums-Sha1: 
+ 52c5b6db1098a6c8277aa570d9c5a5d1d075f39a 572 connection-gtk_0.0.2-0ubuntu1.dsc
+ f96aef697d74de2126c15d79a4cfbd9e9f4f5ba7 796 connection-gtk_0.0.2-0ubuntu1.tar.gz
+ 953252789549c88c73a3373efa5ee59b1ceaa782 1226 connection-gtk_0.0.2-0ubuntu1_all.deb
+Checksums-Sha256: 
+ 0da7253699cf3e2708831c5256477f85d23fefd2eae0edb860b76fe09cfa90a7 572 connection-gtk_0.0.2-0ubuntu1.dsc
+ f690347a4aaa446177d24e118ac5c5b0b46073a5156cf1e228b1af6b708b5151 796 connection-gtk_0.0.2-0ubuntu1.tar.gz
+ b12dea4156929dd46f13557e09b04ea6689bf409c12ac1e26674f96c4f94adb7 1226 connection-gtk_0.0.2-0ubuntu1_all.deb
+Files: 
+ b6cfbda08b5e8dc39611568f8ba4fb4b 572 contrib/web optional connection-gtk_0.0.2-0ubuntu1.dsc
+ 12d5bcf3b02a5757e124aa4147685589 796 contrib/web optional connection-gtk_0.0.2-0ubuntu1.tar.gz
+ 9b363826a993a108c46f10239a758c1c 1226 contrib/web optional connection-gtk_0.0.2-0ubuntu1_all.deb

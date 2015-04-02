@@ -1,0 +1,99 @@
+' Gambas class file
+
+Public Sub _new()
+
+End
+
+Public Sub Form_Open()
+
+Global.b_connected = False
+
+Global.s_version = "1.0"
+
+Me.Caption = "Connection v." & Global.s_version
+
+Lbl_last_good_connection.Caption = "Last good connection:"
+lbl_s_last_good_connection.Caption = ""
+Lbl_url_to_test.caption = "Url to test:"
+TextBox_s_url_to_test.Text = "http://www.google.com"
+lbl_try_every.Caption = "Try every seconds:"
+cmb_seconds.text = 10
+
+HttpClient_url.Async = False
+
+Timer_Refresh_Timer()
+
+End
+
+Public Sub Draw_Status()
+  
+  If Global.b_connected == False Then
+    DrawingArea_status.Background = Color.Red
+  Else
+    DrawingArea_status.Background = Color.Green
+  Endif
+  
+End
+
+Public Sub Timer_Refresh_Timer()
+
+  Dim s_data As String
+  Dim s_error As String
+  Dim st_headers As String[]
+
+  ' Disable Timer
+  Timer_Refresh.Enabled = False
+
+  ' Connecting
+  DrawingArea_status.Background = Color.Yellow
+
+  HttpClient_url.URL = TextBox_s_url_to_test.Text
+  HttpClient_url.Get()
+  s_data = HttpClient_url.Peek()
+
+  ' Print HttpClient_url.Reason
+  ' Found
+  st_headers = HttpClient_url.Headers
+  Global.st_last_headers = st_headers
+  ' 0xcb63b8
+  s_error = HttpClient_url.ErrorText
+  
+  Global.s_last_error = s_error
+  
+  If s_error == "" Then
+    Global.b_connected = True
+    Global.s_last_good_connection = Time(Now)    
+  Else
+    Global.b_connected = False
+  Endif
+
+  RefreshStatus()
+
+  Timer_Refresh.Delay = CInt(cmb_seconds.text) * 1000
+  Timer_Refresh.Enabled = True
+
+End
+
+Public Sub RefreshStatus()
+  
+  Draw_Status()
+  lbl_s_last_good_connection.Caption = Global.s_last_good_connection
+  
+  If Global.s_last_error == "" Then
+    lbl_s_status.Caption = "Success: " & Global.st_last_headers[0]  
+  Else
+    lbl_s_status.Caption = "Error: " & Global.s_last_error
+    ' There was a problem so Make it visible
+    FMain.SetFocus
+    FMain.Show
+  Endif
+  
+  
+End
+
+Public Sub MenuAbout_Click()
+    
+    FAbout.Show  
+    
+End
+

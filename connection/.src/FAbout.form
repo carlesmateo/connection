@@ -1,0 +1,12 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,41)
+  Resizable = False
+  { txtarea_about TextArea
+    MoveScaled(1,1,62,39)
+    ReadOnly = True
+    Wrap = True
+    ScrollBar = Scroll.None
+  }
+}

@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 01 Apr 2015 12:00:00 +0000
+Source: connection-qt4
+Binary: connection-qt4
+Architecture: source all
+Version: 0.0.2-1
+Distribution: unstable
+Urgency: low
+Maintainer: Carles Mateo <carles.mateo@gmail.com>
+Changed-By: Carles Mateo <carles.mateo@gmail.com>
+Description: 
+ connection-qt4 - This is the qt4 support for Connection
+Changes: 
+ connection-qt4 (0.0.2-1) unstable; urgency=low
+ .
+   * New release version
+Checksums-Sha1: 
+ 87351a94de68df62093c43545e14ff5af0bbda95 544 connection-qt4_0.0.2-1.dsc
+ 4b6aa425e10d3cac685861184ff46c0cfb23a2ff 791 connection-qt4_0.0.2-1.tar.gz
+ 7d33b5b7d4cd87d98c201035e55064c6fdb677e3 1222 connection-qt4_0.0.2-1_all.deb
+Checksums-Sha256: 
+ 7e1f3d2bded55018bf26fa2f38122bfeb2baa1d8779973ad601ab1e54d399fb2 544 connection-qt4_0.0.2-1.dsc
+ bd216a3e96f33dbb94b2c9167e769bb1ea8d6228a2e9714030b8267ec39666c3 791 connection-qt4_0.0.2-1.tar.gz
+ b6a1b2692193d45de986e1767ce02b54fb7e89e74046f68eacad7f60a86e9207 1222 connection-qt4_0.0.2-1_all.deb
+Files: 
+ a884f4db0562ffc1622d9ae05edbe437 544 contrib/web optional connection-qt4_0.0.2-1.dsc
+ bffe6dde6f26fd369e22e39462285f7f 791 contrib/web optional connection-qt4_0.0.2-1.tar.gz
+ 76534167f3a3cdbba34c982a0185bc23 1222 contrib/web optional connection-qt4_0.0.2-1_all.deb

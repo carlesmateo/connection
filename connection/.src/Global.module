@@ -1,0 +1,9 @@
+' Gambas module file
+
+Public b_connected As Boolean
+Public s_last_good_connection As String
+Public s_last_error As String
+Public st_last_headers As String[]
+Public s_version As String
+
+

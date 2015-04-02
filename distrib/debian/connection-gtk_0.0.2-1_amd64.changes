@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 01 Apr 2015 12:00:00 +0000
+Source: connection-gtk
+Binary: connection-gtk
+Architecture: source all
+Version: 0.0.2-1
+Distribution: unstable
+Urgency: low
+Maintainer: Carles Mateo <carles.mateo@gmail.com>
+Changed-By: Carles Mateo <carles.mateo@gmail.com>
+Description: 
+ connection-gtk - This is the gtk support for Connection
+Changes: 
+ connection-gtk (0.0.2-1) unstable; urgency=low
+ .
+   * New release version
+Checksums-Sha1: 
+ dc522d38fce28c28fde05bc5a8387557026d36d8 544 connection-gtk_0.0.2-1.dsc
+ e88053dbb46d709b51aaff2a534015f2a0193357 790 connection-gtk_0.0.2-1.tar.gz
+ 84b909348caf48e537755e91f6ea93d4e7e7ad16 1218 connection-gtk_0.0.2-1_all.deb
+Checksums-Sha256: 
+ 4276039cfb062c230dbb23e99db26f3f0e49e0f04fbb969b417f68e68aaf4868 544 connection-gtk_0.0.2-1.dsc
+ 2d132ecbb5e6693541423eb6b48c028a5eac5a376eeeccd20e591e77cf078c87 790 connection-gtk_0.0.2-1.tar.gz
+ 6c57177e9fcbb6ca6bb39ae3492004ca8e94fe5f81839b70f8ad1c5aad317e81 1218 connection-gtk_0.0.2-1_all.deb
+Files: 
+ c3c0456aac8693d3d337cd4abff505ef 544 contrib/web optional connection-gtk_0.0.2-1.dsc
+ 7ef0195fb18eac6197238272a71f54c7 790 contrib/web optional connection-gtk_0.0.2-1.tar.gz
+ 2c76bd26a220559d87f2f6765324fa22 1218 contrib/web optional connection-gtk_0.0.2-1_all.deb

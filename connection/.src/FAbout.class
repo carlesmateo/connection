@@ -1,0 +1,20 @@
+' Gambas class file
+
+
+Public Sub Form_Open()
+
+    Dim s_about As String
+
+    Me.Caption = "About Connection v." & Global.s_version
+
+    s_about = "Connection is a Freeware and Open Source program written by Carles Mateo blog.carlesmateo.com\n\n"
+    s_about = s_about & "It allows you to monitor when you loss the connection, by connecting via http/https/ftp to a site.\n"
+    s_about = s_about & "When the program detects a connection error, it will turn the icon to red, and get the focus so you know.\n"
+    s_about = s_about & "It will display the last time it was able to connect correctly.\n\n" 
+    s_about = s_about & "As I had a poor quality Internet DSL line at home and they had a bad router at work for the fiber, it proved useful to show it.\n"
+    s_about = s_about & "It also proved useful to quickly notice if a website became down" 
+
+    txtarea_about.text = s_about
+    
+
+End

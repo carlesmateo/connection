@@ -1,0 +1,54 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,50,28)
+  Resizable = False
+  { MenuHelp Menu
+    Text = ("Help")
+    { MenuAbout Menu
+      Text = ("About")
+    }
+  }
+  { DrawingArea_status DrawingArea
+    MoveScaled(1,1,7,7)
+    Background = &HFF0000&
+  }
+  { HttpClient_url #HttpClient
+    #MoveScaled(30,21)
+  }
+  { Timer_Refresh #Timer
+    #MoveScaled(27,34)
+    Delay = 30000
+  }
+  { lbl_s_status Label
+    MoveScaled(9,2,40,4)
+  }
+  { Lbl_last_good_connection Label
+    MoveScaled(1,9,24,4)
+    Text = ("Last good connection:")
+  }
+  { lbl_s_last_good_connection Label
+    MoveScaled(25,9,24,4)
+  }
+  { lbl_url_to_test Label
+    MoveScaled(1,13,24,4)
+    Text = ("Url to test:")
+  }
+  { TextBox_s_url_to_test TextBox
+    MoveScaled(25,14,24,4)
+    Text = ("http://www.google.com")
+  }
+  { lbl_try_every Label
+    MoveScaled(1,19,24,4)
+    Text = ("Try every seconds:")
+  }
+  { cmb_seconds ComboBox
+    MoveScaled(25,19,24,4)
+    ReadOnly = True
+    List = [("10"), ("20"), ("30"), ("60"), ("90"), ("120"), ("180"), ("240"), ("300"), ("600"), ("3600")]
+    Text = ("30")
+  }
+  { MenuButton1 MenuButton
+    MoveScaled(0,-5,6,4)
+  }
+}

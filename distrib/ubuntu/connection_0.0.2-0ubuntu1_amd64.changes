@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 01 Apr 2015 12:00:00 +0000
+Source: connection
+Binary: connection
+Architecture: source all
+Version: 0.0.2-0ubuntu1
+Distribution: unstable
+Urgency: low
+Maintainer: Carles Mateo <carles.mateo@gmail.com>
+Changed-By: Carles Mateo <carles.mateo@gmail.com>
+Description: 
+ connection - Connection
+Changes: 
+ connection (0.0.2-0ubuntu1) unstable; urgency=low
+ .
+   * New release version
+Checksums-Sha1: 
+ c621446a00898140e68f72b8698cf067aca16e70 1143 connection_0.0.2-0ubuntu1.dsc
+ 41e1a0e81d1821222a6c769a80af41ab9bd10b94 1432 connection_0.0.2-0ubuntu1.diff.gz
+ bc07e95c186fb45b3b7c3fab190a4b194dbdf0aa 9346 connection_0.0.2-0ubuntu1_all.deb
+Checksums-Sha256: 
+ 73a41a9a83fe4a9edef6f23b9cddbd3e6f5e7fe6d4e006bd7ef3f693d0ccadde 1143 connection_0.0.2-0ubuntu1.dsc
+ 139439d0fe13a80b9472d5d2fd3e68e854a2dddaa4f48a67ebf9b157ee3bda64 1432 connection_0.0.2-0ubuntu1.diff.gz
+ 789132a1e8411c034963aa80beea7ea515b9fca4ae22815c51d9ca33e9faae74 9346 connection_0.0.2-0ubuntu1_all.deb
+Files: 
+ 846296cb10e12643ec4caddafc7e933a 1143 contrib/web optional connection_0.0.2-0ubuntu1.dsc
+ 7de76cf021c9f0b99ab31b82c2d37375 1432 contrib/web optional connection_0.0.2-0ubuntu1.diff.gz
+ 310951e858d81f0d446f93bc7af8b661 9346 contrib/web optional connection_0.0.2-0ubuntu1_all.deb

@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 01 Apr 2015 12:00:00 +0000
+Source: connection
+Binary: connection
+Architecture: source all
+Version: 0.0.2-1
+Distribution: unstable
+Urgency: low
+Maintainer: Carles Mateo <carles.mateo@gmail.com>
+Changed-By: Carles Mateo <carles.mateo@gmail.com>
+Description: 
+ connection - Connection
+Changes: 
+ connection (0.0.2-1) unstable; urgency=low
+ .
+   * New release version
+Checksums-Sha1: 
+ a95a827225ee8a6c8e779816b594c4a283c1d50a 1115 connection_0.0.2-1.dsc
+ 408d686cbf6457a1186995d614ba0f182fcada95 1421 connection_0.0.2-1.diff.gz
+ 186885872e8ac9cb56b21a88bb58da5d1e19f5a9 9342 connection_0.0.2-1_all.deb
+Checksums-Sha256: 
+ da7ee4b04e52d3443453b954afae904dcbf1e13803445ca6777a2742732e35f8 1115 connection_0.0.2-1.dsc
+ b7d4cb15108551c26e8490c2de96fb10fed1c6380ffe787587966862af13c895 1421 connection_0.0.2-1.diff.gz
+ 36cd759d2348838ae199439b15778e38b212ba1433281d992134372e22dfc102 9342 connection_0.0.2-1_all.deb
+Files: 
+ 891d9137eeaa370026f91ecaae25ea89 1115 contrib/web optional connection_0.0.2-1.dsc
+ a339d27a21300a260ce4c4e0db06e645 1421 contrib/web optional connection_0.0.2-1.diff.gz
+ 859e3652b7bb6909cad8d0fb07b924d2 9342 contrib/web optional connection_0.0.2-1_all.deb
