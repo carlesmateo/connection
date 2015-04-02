@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Thu, 02 Apr 2015 12:00:00 +0000
+Source: connection
+Binary: connection
+Architecture: source all
+Version: 0.0.3-0ubuntu1
+Distribution: unstable
+Urgency: low
+Maintainer: Carles Mateo <carles.mateo@gmail.com>
+Changed-By: Carles Mateo <carles.mateo@gmail.com>
+Description: 
+ connection - Connection
+Changes: 
+ connection (0.0.3-0ubuntu1) unstable; urgency=low
+ .
+   * 2015-04-02 Carles Mateo v.0.0.3
+   * Connection shows last time wrong connection
+   * Connection shows the local ip address
+   * Screen is a bit bigger
+   * 15-04-02 Carles Mateo
+   * nnection shows last time wrong connection
+   * nnection shows the local ip address
+   * 15-04-01 Carles Mateo v. 0.0.2
+   * Initial release
+Checksums-Sha1: 
+ 41f113c8c1d7c3449a3297f8ce5b80b672706756 1143 connection_0.0.3-0ubuntu1.dsc
+ 5cba6d7e9a753a618dad9c2fa0ff1835889b4bb0 11024 connection_0.0.3.orig.tar.gz
+ 290e34da8a20c354105b474e0ac72918cb9a5598 1495 connection_0.0.3-0ubuntu1.diff.gz
+ 38cacaeac9065d90049e3d646caa2f25f391b7e2 9726 connection_0.0.3-0ubuntu1_all.deb
+Checksums-Sha256: 
+ 3958e1f71d1ee8ebcf87c4ffe588113be51ba12110c668001a24d09a04090663 1143 connection_0.0.3-0ubuntu1.dsc
+ 3939d959872f7e7c3ff03a8f8262261b22f7fa370f4d4b2564748690a0034033 11024 connection_0.0.3.orig.tar.gz
+ 4c081bba7cc38135416367e7dc0583e7dd7fef11477b13a767dbe1f5a6628f55 1495 connection_0.0.3-0ubuntu1.diff.gz
+ 80b25f91d94eb0efb7eb27fea17c97fda73a46f671962925ef14772181af3f6d 9726 connection_0.0.3-0ubuntu1_all.deb
+Files: 
+ 60d89c24eff6329805f57919ccb7079f 1143 contrib/web optional connection_0.0.3-0ubuntu1.dsc
+ 53f761ff796a51914759874e47701e0e 11024 contrib/web optional connection_0.0.3.orig.tar.gz
+ 052bc5722c71da0a60dffb1bff963f0e 1495 contrib/web optional connection_0.0.3-0ubuntu1.diff.gz
+ 9361428548bf0a3715566cd6dbd3fe8d 9726 contrib/web optional connection_0.0.3-0ubuntu1_all.deb

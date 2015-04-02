@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Thu, 02 Apr 2015 12:00:00 +0000
+Source: connection-gtk
+Binary: connection-gtk
+Architecture: source all
+Version: 0.0.3-0ubuntu1
+Distribution: unstable
+Urgency: low
+Maintainer: Carles Mateo <carles.mateo@gmail.com>
+Changed-By: Carles Mateo <carles.mateo@gmail.com>
+Description: 
+ connection-gtk - This is the gtk support for Connection
+Changes: 
+ connection-gtk (0.0.3-0ubuntu1) unstable; urgency=low
+ .
+   * 2015-04-02 Carles Mateo v.0.0.3
+   * Connection shows last time wrong connection
+   * Connection shows the local ip address
+   * Screen is a bit bigger
+   * 15-04-02 Carles Mateo
+   * nnection shows last time wrong connection
+   * nnection shows the local ip address
+   * 15-04-01 Carles Mateo v. 0.0.2
+   * Initial release
+Checksums-Sha1: 
+ a9862ee4788990f2e8f431b93339cc47ebbd806b 572 connection-gtk_0.0.3-0ubuntu1.dsc
+ 5324514a6aead4c47b1e73354e696a09a83b4b3b 873 connection-gtk_0.0.3-0ubuntu1.tar.gz
+ 3301d45896d2ac4ba95153fe7ba361463e968c8e 1300 connection-gtk_0.0.3-0ubuntu1_all.deb
+Checksums-Sha256: 
+ 338a62a349a77cd8a8047960004bd8322182674cddb81c89d7ecac6f0af70b89 572 connection-gtk_0.0.3-0ubuntu1.dsc
+ 68365587ee34a5bdce3e1e36967beb8c10ec81b8dda182c6a0625791bbe1a08f 873 connection-gtk_0.0.3-0ubuntu1.tar.gz
+ fff1e08786b116861aa2075d5ef63225da056dd1282a641fee876d9bb85ca53b 1300 connection-gtk_0.0.3-0ubuntu1_all.deb
+Files: 
+ 6d06c4afad389a382c53995d4d1849be 572 contrib/web optional connection-gtk_0.0.3-0ubuntu1.dsc
+ 29190feac165a8bd47c5254771815c62 873 contrib/web optional connection-gtk_0.0.3-0ubuntu1.tar.gz
+ c23d7ca2f47cef681ff894e1a3db727c 1300 contrib/web optional connection-gtk_0.0.3-0ubuntu1_all.deb

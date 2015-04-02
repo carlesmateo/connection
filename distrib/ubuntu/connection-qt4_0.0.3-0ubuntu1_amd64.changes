@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Thu, 02 Apr 2015 12:00:00 +0000
+Source: connection-qt4
+Binary: connection-qt4
+Architecture: source all
+Version: 0.0.3-0ubuntu1
+Distribution: unstable
+Urgency: low
+Maintainer: Carles Mateo <carles.mateo@gmail.com>
+Changed-By: Carles Mateo <carles.mateo@gmail.com>
+Description: 
+ connection-qt4 - This is the qt4 support for Connection
+Changes: 
+ connection-qt4 (0.0.3-0ubuntu1) unstable; urgency=low
+ .
+   * 2015-04-02 Carles Mateo v.0.0.3
+   * Connection shows last time wrong connection
+   * Connection shows the local ip address
+   * Screen is a bit bigger
+   * 15-04-02 Carles Mateo
+   * nnection shows last time wrong connection
+   * nnection shows the local ip address
+   * 15-04-01 Carles Mateo v. 0.0.2
+   * Initial release
+Checksums-Sha1: 
+ 6f4e471505d1555ecc1860501a5a2a4b1ca30355 572 connection-qt4_0.0.3-0ubuntu1.dsc
+ 0fe7ba38d489b5663d2fbb2ceb7b4a1b3f44268d 867 connection-qt4_0.0.3-0ubuntu1.tar.gz
+ 0dd199c9d7981941c4f55de1c2e2a66405c84a10 1304 connection-qt4_0.0.3-0ubuntu1_all.deb
+Checksums-Sha256: 
+ b323b35ac2d6f53078b0cbbb88e4a1f95147b7448f5db4494d158e37af7941cf 572 connection-qt4_0.0.3-0ubuntu1.dsc
+ 8844568a267d8f6a5da9d58923cfbcab35176e18037d32522feec14f5756f417 867 connection-qt4_0.0.3-0ubuntu1.tar.gz
+ 8328d23c633ea6f16952ebdd553430da11d4846ad61a9ece56701f6ea36b8e05 1304 connection-qt4_0.0.3-0ubuntu1_all.deb
+Files: 
+ dc7029dcd342c950fee7e61fa7d00265 572 contrib/web optional connection-qt4_0.0.3-0ubuntu1.dsc
+ ba941b07ce15e62a873e497a0560f878 867 contrib/web optional connection-qt4_0.0.3-0ubuntu1.tar.gz
+ 2489af1920aa4e1b251fce5600f9756a 1304 contrib/web optional connection-qt4_0.0.3-0ubuntu1_all.deb
