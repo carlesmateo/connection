@@ -12,12 +12,13 @@ Path="connection.gambas"
 
 [OpenFile]
 File[1]=".src/FMain.form"
-Active=4
-File[2]=".src/FMain.class:94.4"
-File[3]=".src/Global.module:6.17"
-Count=5
+Active=6
+File[2]=".src/FMain.class:20.1"
+File[3]=".src/Global.module:15.0"
+Count=6
 File[4]=".src/FAbout.form"
-File[5]=".src/FAbout.class:13.0"
+File[5]=".src/FAbout.class:15.0"
+File[6]=".hidden/CHANGELOG:4.26"
 
 [Watches]
 Count=0

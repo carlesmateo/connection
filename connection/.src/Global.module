@@ -2,8 +2,21 @@
 
 Public b_connected As Boolean
 Public s_last_good_connection As String
+Public s_last_wrong_connection As String
 Public s_last_error As String
 Public st_last_headers As String[]
 Public s_version As String
 
+Public Sub getIpAddresses() As String
+    
+    Dim s_command As String
+    Dim s_ips As String
+    
+    s_command = "ifconfig | grep inet | cut -d: -f2 | cut -d' ' -f1 | grep -v 127"
+
+    Shell s_command Wait To s_ips
+    
+    Return s_ips
+    
+End
 

@@ -2,7 +2,7 @@
 # Compiled with Gambas 3.7.0
 Title=Connection
 Startup=FMain
-Version=0.0.2
+Version=0.0.3
 Component=gb.image
 Component=gb.gui
 Component=gb.form
@@ -16,7 +16,7 @@ Vendor=CarlesMateo
 Address=carles.mateo@gmail.com
 Url=http://blog.carlesmateo.com/
 License=Freeware
-PackageName=connection-0.0.2
+PackageName=connection-0.0.3
 CreateEachDirectory=1
 Packager=1
 Systems=autotools,debian,slackware,ubuntu

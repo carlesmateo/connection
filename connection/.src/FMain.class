@@ -12,9 +12,14 @@ Global.s_version = "1.0"
 
 Me.Caption = "Connection v." & Global.s_version
 
-Lbl_last_good_connection.Caption = "Last good connection:"
+lbl_local_ip.Caption = "Local ip address:"
+lbl_last_wrong_connection.caption = "Last wrong connection:"
+lbl_last_good_connection.Caption = "Last good connection:"
+Global.s_last_wrong_connection = ""
+Global.s_last_good_connection = ""
+lbl_s_last_wrong_connection.caption = ""
 lbl_s_last_good_connection.Caption = ""
-Lbl_url_to_test.caption = "Url to test:"
+lbl_url_to_test.caption = "Url to test:"
 TextBox_s_url_to_test.Text = "http://www.google.com"
 lbl_try_every.Caption = "Try every seconds:"
 cmb_seconds.text = 10
@@ -40,9 +45,14 @@ Public Sub Timer_Refresh_Timer()
   Dim s_data As String
   Dim s_error As String
   Dim st_headers As String[]
+  Dim s_ips As String
 
   ' Disable Timer
   Timer_Refresh.Enabled = False
+
+    ' Getting the ips updated
+    s_ips = Global.getIpAddresses()
+    lbl_s_local_ips.Caption = s_ips
 
   ' Connecting
   DrawingArea_status.Background = Color.Yellow
@@ -65,6 +75,7 @@ Public Sub Timer_Refresh_Timer()
     Global.s_last_good_connection = Time(Now)    
   Else
     Global.b_connected = False
+    Global.s_last_wrong_connection = Time(Now)
   Endif
 
   RefreshStatus()
@@ -78,6 +89,7 @@ Public Sub RefreshStatus()
   
   Draw_Status()
   lbl_s_last_good_connection.Caption = Global.s_last_good_connection
+  lbl_s_last_wrong_connection.Caption = Global.s_last_wrong_connection
   
   If Global.s_last_error == "" Then
     lbl_s_status.Caption = "Success: " & Global.st_last_headers[0]  
