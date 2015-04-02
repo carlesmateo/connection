@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Thu, 02 Apr 2015 12:00:00 +0000
+Source: connection-qt4
+Binary: connection-qt4
+Architecture: source all
+Version: 0.0.3-1
+Distribution: unstable
+Urgency: low
+Maintainer: Carles Mateo <carles.mateo@gmail.com>
+Changed-By: Carles Mateo <carles.mateo@gmail.com>
+Description: 
+ connection-qt4 - This is the qt4 support for Connection
+Changes: 
+ connection-qt4 (0.0.3-1) unstable; urgency=low
+ .
+   * 2015-04-02 Carles Mateo v.0.0.3
+   * Connection shows last time wrong connection
+   * Connection shows the local ip address
+   * Screen is a bit bigger
+   * 15-04-02 Carles Mateo
+   * nnection shows last time wrong connection
+   * nnection shows the local ip address
+   * 15-04-01 Carles Mateo v. 0.0.2
+   * Initial release
+Checksums-Sha1: 
+ 78b9e3061e7eb1240c7e962c0117283171c92f7d 544 connection-qt4_0.0.3-1.dsc
+ 9d6ff858323fa062e8bcdbfa4e6cd1176b49d408 858 connection-qt4_0.0.3-1.tar.gz
+ f5a46d26f05c4e312f2ca35a2049e0b33132e84d 1292 connection-qt4_0.0.3-1_all.deb
+Checksums-Sha256: 
+ 5fc4f0a04225fac6f993a89fce36175c6919b76c2b47ddb86d7e2cf0d0f02e80 544 connection-qt4_0.0.3-1.dsc
+ 68628cc86cda19d1b9e3e529c6b20436f15fd40ada50378920cb3ce875f3eee3 858 connection-qt4_0.0.3-1.tar.gz
+ 5b43419fd4cdea351a0b87d0ca6b7214891c7d63b34c0ba8a0f6d29a96a53d5d 1292 connection-qt4_0.0.3-1_all.deb
+Files: 
+ 6a25aeb2e8fbf8fcbe610600bcdba18d 544 contrib/web optional connection-qt4_0.0.3-1.dsc
+ 19e7a44252020657315d537df4d50356 858 contrib/web optional connection-qt4_0.0.3-1.tar.gz
+ 31c9a4cd513d10a1b04754c762991dda 1292 contrib/web optional connection-qt4_0.0.3-1_all.deb
