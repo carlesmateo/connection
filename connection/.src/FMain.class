@@ -6,6 +6,8 @@ End
 
 Public Sub Form_Open()
 
+' Created by Carles Mateo http://blog.carlesmateo.com with Gambas v. 3.7.0
+
 Global.b_connected = False
 
 Global.s_version = "1.0"
